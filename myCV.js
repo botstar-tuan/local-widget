@@ -18,8 +18,8 @@ function writeName(txt,selector){
 }
 function loadWriteName(){
   if(document.documentElement.scrollTop==0){
-    setInterval(writeName,150,"I'm Tuan Pham",siteName);
-    setInterval(writeName,150,'a fresher front-end developer',siteslogan);  
+    setInterval(writeName,150,"Welcome to Coffe Shop",siteName);
+    setInterval(writeName,150,'A new experience every week',siteslogan);  
   }
 }
 
