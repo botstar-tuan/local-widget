@@ -1,7 +1,7 @@
 // Write text
 const siteName=document.querySelector('.site-name h1');
 const siteslogan=document.querySelector('.site-slogan h3');
-const name="I'm Tuan Pham";
+const name="Welcome to Coffee Shop";
 let idx=0;
 function writeName(txt,selector){
     let text=txt.slice(0,idx);
@@ -18,7 +18,7 @@ function writeName(txt,selector){
 }
 function loadWriteName(){
   if(document.documentElement.scrollTop==0){
-    setInterval(writeName,150,"Welcome to Coffe Shop",siteName);
+    setInterval(writeName,150,"Welcome to Coffee Shop",siteName);
     setInterval(writeName,150,'A new experience every week',siteslogan);  
   }
 }
