@@ -68,6 +68,7 @@
     background-color:#32323a;
     transition: left 0.5s linear;
     z-index:9;
+    padding-top: 50px;
 }
 .layer-menu{
     display:none;
